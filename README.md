@@ -7,9 +7,9 @@ Para comemorar este momento especial, a unidade preparou, de 5 a 10 de junho um 
 Os participantes poderão interagir nas redes sociais pela hashtag #senactat30.
 
 <h1>Oficina: Escape Room Hacker</h1>
-07/06/2017 até 09/06/2017 das 13h30 às 17h30
-Preço: Participação gratuita.
-Atividade para maiores de 16 anos.
+07/06/2017 até 09/06/2017 das 13h30 às 17h30<br>
+Preço: Participação gratuita.<br>
+Atividade para maiores de 16 anos.<br>
 
 Pré-requisito: Conhecimentos básicos em Informática e em redes de computadores.
 
