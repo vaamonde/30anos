@@ -52,6 +52,9 @@ wpscan 192.168.1.10
 #Analisando o tráfego da Placa de Rede
 wireshark
 
+#Filtrar HTTP
+http.request.method == "POST" 
+
 #QUARTA FERRAMENTA: Dicionários de Usuários/Senhas (darkc0de.lst)
 #Site: https://crackstation.net/
 #Pesquisar no Google: top 10 username and password wordpress
