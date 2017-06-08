@@ -5,8 +5,10 @@
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 31/10/2016
-# Data de atualização: 31/10/2016
-# Versão: 1.0
+# Data de atualização: 05/06/2017
+# Versão: 1.1
+
+#Comandos utilizados no #Escape_Room_TI_SENAC_Tatuapé_30_Anos
 
 # Descompactando o arquivo .deb do Sucrack
 ar -x sucrack.deb >> /dev/null
