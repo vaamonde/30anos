@@ -12,11 +12,12 @@
 
 #Variável do comando WPScan
 IP_URL="192.168.1.10"
-WORDLIST="darkc0de.lst"
+WORDLIST="/root/30anos/02_day/darkc0de.lst"
 USERNAME="admin"
 
 #Executando o comando WPScan com as opções: --url=Indica o IP ou URL do alvo, --wordlist=Indica o arquivo de Dicionário de Senhas e 
 #--username=Indica o usuário a ser utilziado para autenticação
+#Base de dados para utilizar o darkc0de.lst: ln -s /root/30anos/02_day/darkc0de.lst darkc0de.lst
 
 echo -e "Executando o comando WPScan no alvo: $ALVO"
 echo
