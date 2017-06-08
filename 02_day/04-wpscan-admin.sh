@@ -15,7 +15,9 @@ IP_URL="192.168.1.10"
 WORDLIST="darkc0de.lst"
 USERNAME="admin"
 
-#Executando o comando WPScan com as opções: --url=Indica o IP ou URL do alvo, --wordlist=Indica o arquivo de Dicionário de Senhas e --username=Indica o usuário a ser utilziado para autenticação
+#Executando o comando WPScan com as opções: --url=Indica o IP ou URL do alvo, --wordlist=Indica o arquivo de Dicionário de Senhas e 
+#--username=Indica o usuário a ser utilziado para autenticação
+
 echo -e "Executando o comando WPScan no alvo: $ALVO"
 echo
   wpscan --url $IP_URL --wordlist $WORDLIST --username $USERNAME
