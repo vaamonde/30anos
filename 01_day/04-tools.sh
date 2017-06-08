@@ -84,7 +84,17 @@ msfconsole
 
 #Utilizar a ferramenta de scanner do Metasploit para Wordpress
 use auxiliary/scanner/http/wordpress_scanner
+show options
+set RHOSTS 192.168.1.10
+run
 
+use auxiliary/scanner/http/wordpress_login_enum
+show options
+set RHOSTS 192.168.1.10
+run
 
 #NONA FERRAMENTA: Nikto (https://cirt.net/Nikto2)
 nikto -h 192.168.1.10
+
+#DÉCIMA FERRAMENA: OWASP-ZAP (https://www.owasp.org)
+owasp-zap
