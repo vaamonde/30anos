@@ -82,8 +82,9 @@ msfupdate
 #Acessando o console
 msfconsole
 
-#Verificando as opções para exploração de serviços
-show auxiliary
+#Utilizar a ferramenta de scanner do Metasploit para Wordpress
+use auxiliary/scanner/http/wordpress_scanner
+
 
 #NONA FERRAMENTA: Nikto (https://cirt.net/Nikto2)
 nikto -h 192.168.1.10
